@@ -17,24 +17,63 @@
 body{
   width: 65vw;
   margin: auto;
+  background-image: url('../img/sfondo.png');
 }
 
 header{
   margin: 10px 0;
 }
 
-header > div{
+header > .img_alb{
   width: 100%;
   height: 300px;
-  background-color: red;
-  border: 1px solid black;
+  position: relative;
+  background-image: url(../img/alberi.jpg);
+  background-size: cover;
+  background-position: center;
+  border: 6px solid white;
+}
+
+header .h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+
+header .h2{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
 }
 
 header > nav{
   width: 100%;
-  height: 50px;
+  height: 55px;
   background-color: grey;
-  border: 1px solid black;
+  text-align: center;
+}
+
+nav ul{
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  padding: 18px 7px;
+  line-height: 55px;
+}
+
+ul > li:hover{
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 main{
