@@ -40,6 +40,8 @@ header .h1{
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
+  border: 3px solid white;
+  padding: 10px;
 }
 
 header .h2{
@@ -48,6 +50,7 @@ header .h2{
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
+  font-size: 13px;
 }
 
 header > nav{
